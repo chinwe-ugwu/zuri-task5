@@ -1,5 +1,3 @@
-// if(!(isNaN(data)))
-
 function convertFahrToCelsius(data) { 
         if((!(Number(data)) || !parseInt(data)) && Array.isArray(data) === false) {
             let data1 = JSON.stringify(data)                                                                                                                 
